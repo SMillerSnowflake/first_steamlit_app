@@ -2,6 +2,8 @@
 snowflake-connector-python
 import snowflake.commector
 
+streamlit.text("Hello, World!)
+
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
