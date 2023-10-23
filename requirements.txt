@@ -1,6 +1,6 @@
 # requirements.txt
-# snowflake-connector-python
-import snowflake.commector
+snowflake-connector-python
+import snowflake.connector
 
 streamlit.text("Hello, World!)
 
