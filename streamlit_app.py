@@ -1,4 +1,4 @@
-lect * froimport streamlit # make this a streamlit app
+import streamlit # make this a streamlit app
 import pandas # so many pandas!!!!
 import requests # let us get requests via API calls
 import snowflake.connector
